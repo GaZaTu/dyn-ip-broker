@@ -1,0 +1,48 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "semi": [
+      "error",
+      "never"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "jsx-quotes": "error",
+    "consistent-return": "error",
+    "eqeqeq": "error",
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1,
+        "maxEOF": 1
+      }
+    ],
+    "no-empty-pattern": "off",
+    "no-unused-vars": [
+      "warn",
+      {
+        "args": "none"
+      }
+    ]
+  },
+  "ignorePatterns": [
+    "node_modules/"
+  ]
+}
